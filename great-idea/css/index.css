@@ -200,3 +200,78 @@ footer {
   display:flex;
   justify-content:center;
 }
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.imgwrap {
+  margin: 3%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.services {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin-bottom:5%;
+}
+.servicestxt {
+  font-size:30px;
+}
+
+.textwrap {
+  font-size:20px;
+  font-weight: 580;
+}
+
+.boxcontainer {
+  display:flex;
+  flex-direction:column;
+  padding:2%;
+  width:400px;
+  background-color:#F3F3F3;
+  border: 1px black solid;
+}
+
+hr {
+  border: .7px solid black;
+  margin-bottom:5%;
+}
+
+.button {
+  text-align:center;
+  border: .7px solid black;
+  background-color:white;
+  margin-top:5%;
+  padding:3%;
+  width:40%;
+  border-radius: 5px;
+}
+
+.flexbox {
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content:space-between;
+  margin-bottom:5%;
+}
+
+.boxcontainer2 {
+  display:flex;
+  flex-direction:column;
+  padding:2%;
+  width:400px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  margin:5%;
+}
